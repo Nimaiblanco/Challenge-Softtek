@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Tema principal do app -->
+    <style name="Theme.Softteksaudementalapp" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!-- Tema para a SplashScreen -->
+    <style name="Theme.Softteksaudementalapp.Splash" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Cor de fundo da splash -->
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>
